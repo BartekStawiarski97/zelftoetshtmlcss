@@ -228,13 +228,60 @@ header {
   margin-top: 100px;
 }
 
-#stemWijzer {
-  width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-  height: 200px;
-  line-height: 100px;
+/* PAGINA 4 */
+
+.accessories {
+  grid-row: 1;
+  grid-column: 1 /span 4;
 }
+
+.clothing {
+  grid-row: 1;
+  grid-column: 1 /span 8;
+  padding: 0px 300px;
+}
+
+.shoes {
+  grid-row: 1;
+  grid-column: 3 / span 10;
+  padding: 0px 40px;
+}
+
+.h8 {
+  grid-row: 2;
+  grid-column: 1 / span 10;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text8 {
+  grid-row: 3;
+  grid-column: 1 / span 10;
+  text-align: center;
+}
+
+.foto1 {
+  grid-row: 4 ;
+  grid-column: 1;
+}
+
+.foto2 {
+  grid-row: 4 ;
+  grid-column: 2;
+}
+
+.foto3 {
+  grid-row: 4 ;
+  grid-column: 3;
+}
+
+.foto4 {
+  grid-row: 4 ;
+  grid-column: 2;
+  margin-top: 190px;
+}
+
+
 
 footer {
   position: relative;
