@@ -157,34 +157,75 @@ header {
 }
 
 /* PAGINA 3 */
-.klaas {
-  grid-row: 1 / span 4;
-  grid-column: 1 / span 3;
+
+.sale {
+  grid-row: 1;
+  grid-column: 1 / span 10;
 }
 
-.jan-remco {
-  grid-row: 1 / span 4;
-  grid-column: 5 / span 6;
+.h6 {
+  grid-row: 3;
+  grid-column: 1 / span 4;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  background-color: red;
+  line-height: 40px;
+  font-weight: bold;
+  height: 40px;
+  margin: 0 auto;
 }
 
-.bas {
-  grid-row: 1 / span 4;
-  grid-column: 7 / span 8;
+.text6 {
+  grid-row: 3;
+  grid-column: 1 / span 4;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: white;
+  line-height: 40px;
+  font-weight: bold;
+  height: 80px;
+  margin: 0 auto;
+  padding: 50px 0px 0px 0px;
+  margin-top: 40px;
 }
 
-.sophie {
-  grid-row: 5;
-  grid-column: 1 / span 3;
+.h7 {
+  grid-row: 3;
+  grid-column: 6 / span 9;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  background-color: red;
+  line-height: 40px;
+  font-weight: bold;
+  height: 40px;
+  margin: 0 auto;
 }
 
-.dilan-judith {
-  grid-row: 5;
-  grid-column: 5 / span 6;
+.text7 {
+  grid-row: 3;
+  grid-column: 6 / span 9;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: white;
+  line-height: 40px;
+  font-weight: bold;
+  height: 80px;
+  margin: 0 auto;
+  padding: 50px 0px 0px 0px;
+  margin-top: 40px;
 }
 
-.ockje {
-  grid-row: 5;
-  grid-column: 7 / span 8;
+.sale2 {
+  grid-row: 7;
+  grid-column: 1 / span 10;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 #stemWijzer {
